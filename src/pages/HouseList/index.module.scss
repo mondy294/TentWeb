@@ -1,0 +1,185 @@
+// 加载圈样式
+.loading {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 100px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99999;
+    left: 50%;
+    top: calc(50% - 20px);
+    transform: translateX(-50%);
+
+}
+
+
+
+.finishLoading {
+    display: none;
+}
+
+
+
+
+.CascaderView {
+    margin-top: 50px;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    transform: translate3d(0, -382px, 0);
+    transition: all 1s;
+
+}
+
+.show {
+    transform: translate3d(0, 0, 0);
+}
+
+.navbar {
+    padding: 10px 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+
+    .left {
+        width: 40%;
+        height: 100%;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+        div {
+            margin-left: 10px;
+        }
+    }
+
+    .right {
+        width: 40%;
+        display: flex;
+        margin-right: 20px;
+        justify-content: end;
+    }
+}
+
+
+/* 房源列表样式： */
+.houseList {
+    padding: 10px 10px;
+    width: 100%;
+    margin-top: 32px;
+    background: #eee;
+    z-index: 99;
+}
+
+
+/* 房屋列表项样式 */
+// .houseItems {
+//     padding: 0 10px;
+//     overflow-y: auto;
+//     height: 100%;
+//     padding-bottom: 45px;
+//     background-color: #fff;
+
+// }
+
+.house {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 120px;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+
+}
+
+.imgWrap {
+    float: left;
+    width: 106px;
+    height: 80px;
+}
+
+.img {
+    width: 106px;
+    height: 80px;
+}
+
+.content {
+    overflow: hidden;
+    line-height: 22px;
+    padding-left: 12px;
+}
+
+.title {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #394043;
+}
+
+.desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #afb2b3;
+}
+
+.price {
+    font-size: 12px;
+    color: #fa5741;
+}
+
+.priceNum {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 4px 5px;
+    margin-right: 5px;
+    line-height: 12px;
+}
+
+.tag1 {
+    color: #39becd;
+    background: #e1f5f8;
+}
+
+.tag2 {
+    color: #3fc28c;
+    background: #e1f5ed;
+}
+
+.tag3 {
+    color: #5aabfd;
+    background: #e6f2ff;
+}
+
+.tag4 {
+    color: #118599;
+    background: #e6f2ff;
+}

@@ -1,0 +1,29 @@
+// 加载圈样式
+.loading {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 100px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999999;
+    left: 50%;
+    top: calc(50% - 20px);
+    transform: translateX(-50%);
+
+}
+
+
+
+.finishLoading {
+    display: none;
+}
+
+.show {
+    display: none;
+}

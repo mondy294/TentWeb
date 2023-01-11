@@ -1,0 +1,199 @@
+// 加载圈样式
+.loading {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 100px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99999;
+    left: 50%;
+    top: calc(50% - 20px);
+    transform: translateX(-50%);
+
+}
+
+
+
+.finishLoading {
+    display: none;
+}
+
+.show {
+    display: none;
+}
+
+
+
+
+.content {
+    height: 300px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.detailsinfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: #1677ff;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 0;
+    border: 0px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+
+    .baseinfo {
+        width: 100%;
+        height: 45px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        color: #FFF;
+
+        .price {
+            display: flex;
+            align-items: center;
+
+            span {
+                font-size: 18px;
+                font-weight: bold;
+                margin: 0 2px;
+            }
+        }
+
+        .area {
+            display: flex;
+            align-items: center;
+
+            span {
+                font-size: 18px;
+                font-weight: bold;
+                margin: 0 2px;
+            }
+        }
+    }
+
+    .detailsmain {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        width: 101%;
+        margin-left: -2px;
+        height: 170px;
+        background-color: #fff;
+        border-radius: 10px;
+
+
+        .detailscontent {
+            width: 100%;
+            height: 70%;
+            // background-color: red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+            .detailstitle {
+                display: flex;
+                align-items: center;
+                width: 80%;
+                height: 100%;
+                font-size: 18px;
+                line-height: 1.2em;
+                letter-spacing: 2px;
+
+            }
+
+            .icon {
+                margin-left: -20px;
+                width: 64px;
+                height: 64px;
+                border-radius: 32px;
+                border: 2px solid rgba(0, 0, 0, .2);
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 40px;
+                color: #1677ff;
+            }
+        }
+
+        .tips {
+            width: 100%;
+            height: 30%;
+
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: rgba(0, 0, 0, .2);
+
+            span {
+                margin-right: 10px;
+            }
+        }
+
+
+    }
+}
+
+
+.imgs {
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+    img {
+        width: 100%;
+        overflow: hidden;
+        float: left;
+    }
+}
+
+
+.bottom {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0px;
+    width: 100%;
+    height: 49px;
+    background-color: #1677ff;
+    color: #FFF;
+    font-size: 18px;
+
+    span {
+
+        span {
+            margin-left: 10px;
+        }
+    }
+}
+
+.box {
+    padding-bottom: 60px;
+}
